@@ -1,0 +1,59 @@
+* {margin: 0;padding: 0;font-family: '微软雅黑';font-size: 0.2rem;}
+html, body {
+  height: 100vh;
+  /* max-width: 7.2rem; */
+  /* margin: 0 auto; */
+  background: #f3f3f3;
+  -webkit-user-select: none;
+}
+/* #app, .wrap, .app {
+  height: 100vh;
+} */
+a {text-decoration: none; color: #999;}
+a:visited{text-decoration:none;}
+li {list-style-type: none;}
+* {
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  /* -webkit-tap-highlight-color:rgba(255,0,0,0.5); */
+}
+a:focus, input:focus, textarea:focus, button:focus, select:focus {
+  outline: none;
+}
+
+.chart_box {
+  position: relative;
+}
+  .chart_box .box_header {
+    height: 0.94rem;
+    background: #fff;
+    line-height: 0.94rem;
+    font-size: 0.28rem;
+    color: #555;
+    padding-left: 0.47rem;
+    position: absolute;
+  }
+  .box_header_span+span {
+    font-size: 0.28rem;
+  }
+  .box_header_span {
+    display: inline-block;
+    height: 0.24rem;
+    width: 0.08rem;
+    border-radius: 0.04rem;
+    background: #70ad47;
+    vertical-align: top;
+    margin-top: 0.37rem;
+    margin-right: 0.13rem;
+  }
+  body .cell_no_bac .mint-cell, body .cell_no_bac .mint-cell-wrapper {
+    background-image: none !important;
+  }
+  body .mint-radio-input:checked + .mint-radio-core {
+    background-color: #70ad47;
+    border-color: #70ad47;
+}
+body .num_info {
+  height: 15px;
+  vertical-align: top;
+  line-height: 15px;
+}
